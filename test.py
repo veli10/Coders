@@ -16,7 +16,7 @@ sentence = input('Cumle daxil edin: ')
 allWords = sentence.split(' ')
 answer = ''
 for word in allWords: 
-    sortedWord = ''.join(sorted(list(word)))
+    sortedWord = ''.join(sorted(word))
     answer += sortedWord + ' '
 print(answer)
 
