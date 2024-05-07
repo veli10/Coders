@@ -61,8 +61,10 @@
 # nums2 = [4, 5, 6]
 
 # results = []
-# for i in range(0, len(nums1)):
+# for i in range(len(nums1)):
 #     results.append((nums1[i] + nums2[i]) / 2)
 
 # print(results)
+
+
 # results=[ 2.5, 3.5, 4.5]
