@@ -17,7 +17,7 @@ class Car:
         print("Total number of cars:", Car.car_count)
 
 car1 = Car("Toyota", "Camry", 2020)
-car2 = Car("Tesla", "Model S", 2022)
+car2 = Car("Tesla", "Model S", 2022) 
 
 car1.display_info()
 car2.display_info()
