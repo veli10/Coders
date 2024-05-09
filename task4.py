@@ -47,19 +47,19 @@ class Rook(Figure):
 class Cell():
 
     def __init__(self, color, x, y, figure):
-        self._color = color
-        self._x = x
-        self._y = y
+        self.__color = color
+        self.__x = x
+        self.__y = y
         self.figure = figure
 
     def get_color(self):
-        return self._color
+        return self.__color
     
     def get_x(self):
-        return self._x
+        return self.__x
     
     def get_y(self):
-        return self._y
+        return self.__y
 
 
 class Board():
